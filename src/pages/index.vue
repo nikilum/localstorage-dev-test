@@ -7,7 +7,7 @@
       </v-card-title>
       <v-card-text>
         <v-row>
-          <v-col cols="8">
+          <v-col cols="12" sm="6">
             <v-input :messages="generateElementsMessage">
               <v-text-field
                   class="pt-0"
@@ -17,7 +17,7 @@
               />
             </v-input>
           </v-col>
-          <v-col cols="4">
+          <v-col cols="12" sm="6">
             <v-btn
                 :disabled="!itemsToGenerate || itemsToGenerate < 0"
                 class="col col-12"
@@ -29,7 +29,7 @@
           </v-col>
         </v-row>
         <v-row>
-          <v-col cols="8">
+          <v-col cols="12" sm="6">
             <v-input :messages="findElementsMessage">
               <v-text-field
                   class="pt-0"
@@ -38,7 +38,7 @@
               />
             </v-input>
           </v-col>
-          <v-col cols="4">
+          <v-col cols="12" sm="6">
             <v-btn
                 class="col col-12"
                 color="primary"
